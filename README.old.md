@@ -1,1 +1,0 @@
-# john-kim-react-portfolio
