@@ -3,3 +3,13 @@
 This this is the repository hosting the code for the web portfolio of John Kim using react.
 
 This site is deployed at http://john-kim-426.herokuapp.com/
+
+This portfolio was developed with a "mobile-first" approach and responds to multiple screen sizes. 
+
+![Desktop Site](/src/assets/readme/desktopsite.png)
+
+Site layout on Desktop.
+
+![Mobile Site](/src/assets/readme/mobilesite.png)
+
+Site layout on Mobile. 
