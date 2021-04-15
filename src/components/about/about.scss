@@ -1,0 +1,12 @@
+@import '../../style/App.scss';
+
+#about {
+  padding: 60px 0;
+  margin-top: 84px;
+}
+
+@media screen and (max-width: 990px) {
+  #about {
+    text-align: center;
+  }
+}
