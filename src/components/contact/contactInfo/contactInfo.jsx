@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 import "./contactInfo.scss";
+import pdf from '../../../assets/resume/johnkimresume2.pdf'
 
 import { FaPortrait, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
@@ -23,7 +24,7 @@ const contactInfo = () => (
         <Col xs={12} lg={3} className="contact__info">
         <div className="contact__info-box">
             <div>
-              <a href="./assets/resume/johnkimresume2.pdf">
+              <a href={pdf}>
                 <FaPortrait size={44}/>
               </a>
             </div>

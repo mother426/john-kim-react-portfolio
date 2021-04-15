@@ -1,5 +1,5 @@
 import React from "react";
-// Scss
+
 import "./projectBox.scss";
 
 const projectBox = (props) => (
