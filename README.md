@@ -13,3 +13,5 @@ Site layout on Desktop.
 ![Mobile Site](/src/assets/readme/mobilesite.png)
 
 Site layout on Mobile. 
+
+For any questions or inquiries, you can contact me at any of the available contact methods linked in my site! 
