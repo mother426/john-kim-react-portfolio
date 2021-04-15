@@ -4,7 +4,7 @@ This this is the repository hosting the code for the web portfolio of John Kim u
 
 This site is deployed at http://john-kim-426.herokuapp.com/
 
-This portfolio was developed with a "mobile-first" approach and responds to multiple screen sizes. 
+This portfolio displays the development work I have done recently, and also displays my contact information for any interested parties. This portfolio was developed with a "mobile-first" approach and responds to multiple screen sizes. 
 
 ![Desktop Site](/src/assets/readme/desktopsite.png)
 
@@ -13,5 +13,8 @@ Site layout on Desktop.
 ![Mobile Site](/src/assets/readme/mobilesite.png)
 
 Site layout on Mobile. 
+<<<<<<< HEAD
 
 For any questions or inquiries, you can contact me at any of the available contact methods linked in my site! 
+=======
+>>>>>>> 58195404ab5e1e98aa3202ebfe54e899e2f9157c
