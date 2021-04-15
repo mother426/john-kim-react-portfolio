@@ -103,7 +103,7 @@ class Portfolio extends React.Component {
       <div id="portfolio">
         <div className="wrapper">
           <Title title="My Work" />
-          <Masonry breakpointCols={portfolioBreakpoints} className="my-masonry-grid" columnClassName="mint__gallery">
+          <Masonry breakpointCols={portfolioBreakpoints} className="my-masonry-grid">
             {projectsRender}
           </Masonry>
         </div>
