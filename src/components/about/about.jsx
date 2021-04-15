@@ -11,7 +11,7 @@ const about = () => (
       <Row>
         <Col md={12} lg={4}>
           <div className="team__box flex-center">
-            <img src={devPortrait} alt="person" />
+            <img src={devPortrait} alt="Portrait of developer John Kim" />
             <div className="team__box-info">
               <p className="font15 weight800"></p>
               <p className="font12 weight500"></p>
