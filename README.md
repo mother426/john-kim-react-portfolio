@@ -13,8 +13,6 @@ Site layout on Desktop.
 ![Mobile Site](/src/assets/readme/mobilesite.png)
 
 Site layout on Mobile. 
-<<<<<<< HEAD
+
 
 For any questions or inquiries, you can contact me at any of the available contact methods linked in my site! 
-=======
->>>>>>> 58195404ab5e1e98aa3202ebfe54e899e2f9157c
