@@ -6,7 +6,7 @@ import "./portfolio.scss";
 import doggleSite from "../../assets/portfolio/project01/doggle.png";
 import fitnessTracker from "../../assets/portfolio/project02/fitnessTracker.png";
 import eyeReadApp from "../../assets/portfolio/project03/eyeReadApp.png";
-import teamProfGen from "../../assets/portfolio/project04/teamProfGen.png";
+import gameSecrets from "../../assets/portfolio/project04/gamesecrets.png";
 import weatherDashboard from "../../assets/portfolio/project05/weatherDashboard.png";
 import noteTaker from "../../assets/portfolio/project06/noteTaker.png";
 
@@ -22,43 +22,49 @@ class Portfolio extends React.Component {
           id: "1",
           preview: doggleSite,
           title: "Doggle App",
-          tag: "Front-end JS application",
-          link: "https://github.com/mother426/Dog-Breed-Finder-and-Rescue"
+          tag: "Front-end JS application with REST API's",
+          link: "https://accoon.github.io/Dog-Breed-Finder-and-Rescue/",
+          repo: "https://github.com/mother426/Dog-Breed-Finder-and-Rescue"
         },
         {
           id: "2",
           preview: fitnessTracker,
           title: "Fitness Tracker",
-          tag: "Full-Stack Application",
-          link: "https://github.com/mother426/fitness-tracker-mongodb"
+          tag: "Full-Stack Application with Mongoose middleware",
+          link: "https://fitness-tracker-0421.herokuapp.com",
+          repo: "https://github.com/mother426/fitness-tracker-mongodb"
         },
         {
           id: "3",
           preview: eyeReadApp,
           title: "eyeRead App",
-          tag: "Full-Stack Application",
-          link: "https://github.com/mother426/Project-2-Eye-Read"
+          tag: "Full-Stack Application with Handlebars.js and MySQL",
+          link: "https://eyeread-app.herokuapp.com/login",
+          repo: "https://github.com/mother426/eye-read"
         },
         {
           id: "4",
-          preview: teamProfGen,
-          title: "Team Profile Generator",
-          tag: "CLI Application",
-          link: "https://github.com/mother426/team-profile-generator"
+          preview: gameSecrets,
+          title: "Game Secrets",
+          tag: "Full-stack CMS style application with MongoDB and React",
+          link: "https://game-secrets.herokuapp.com",
+          repo: "https://github.com/mother426/game-secrets",
         },
         {
           id: "5",
           preview: weatherDashboard,
           title: "Weather Dashboard",
-          tag: "Front-end JS application with API",
-          link: "https://github.com/mother426/weather-dashboard-APIs-js"
+          tag: "Front-end JS application with REST API",
+          link: "https://mother426.github.io/weather-dashboard-APIs-js/",
+          repo: "https://github.com/mother426/weather-dashboard-APIs-js"
         },
         {
           id: "6",
           preview: noteTaker,
           title: "Express Note Taker",
-          tag: "Back-end Application",
-          link: "https://github.com/mother426/express-note-taker"
+          tag: "Back-end Application with Express middleware",
+          link: "https://powerful-shelf-37149.herokuapp.com",
+          repo: "https://github.com/mother426/express-note-taker"
         },
       ],
       filterResult: null,
@@ -89,7 +95,7 @@ class Portfolio extends React.Component {
     let projectsRender = null;
     if (this.state.filterResult) {
       projectsRender = this.state.filterResult.map((project) => (
-        <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} link={project.link} />
+        <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} link={project.link} repo={project.repo} desc={project.desc}/>
       ));
     }
     const portfolioBreakpoints = {

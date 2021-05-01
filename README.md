@@ -14,5 +14,4 @@ Site layout on Desktop.
 
 Site layout on Mobile. 
 
-
-For any questions or inquiries, you can contact me at any of the available contact methods linked in my site! 
+## For any questions or inquiries, you can contact me at any of the available contact methods linked in my site! 

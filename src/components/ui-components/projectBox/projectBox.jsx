@@ -3,6 +3,7 @@ import React from "react";
 import "./projectBox.scss";
 
 const projectBox = (props) => (
+  <>
     <a href={props.link} target='_blank' rel="noreferrer">
       <div className="portfolio__box">
         <img src={props.preview} alt="project" />
@@ -14,6 +15,10 @@ const projectBox = (props) => (
         </div>
       </div>
     </a>
+    <div>
+      <p><a href={props.repo} target='_blank' rel="noreferrer">See this app's repository!</a></p>
+    </div>
+  </>
 );
 
 export default projectBox;
