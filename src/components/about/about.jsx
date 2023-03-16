@@ -23,7 +23,7 @@ const about = () => (
             <div>
               <h4 className="font32 weight800">A bit about me</h4>
               <p className="font16 weight500">
-                Hi, I'm John. A developer living in Brooklyn, New York. asdfasdfasdfasdf
+                Hi, I'm John. A developer living in Brooklyn, New York.
               </p>
             </div>
           </div>
