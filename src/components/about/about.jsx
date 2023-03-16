@@ -23,7 +23,7 @@ const about = () => (
             <div>
               <h4 className="font32 weight800">A bit about me</h4>
               <p className="font16 weight500">
-                A junior full-stack developer based in New York City. Dedicated to problem solving, best practices, and the life-long learning process of programming! Recent graduate of UNC Charlotte communications program and UNC Charlotte's Full-Stack Development bootcamp. Primarily working with JavaScript, React.js, Node.js, Mongo.DB, SQL Databases, various front-end CSS frameworks, but always eager to learn more. Excited to be able to share my skills and experience as well as further them. Let's make something great together!
+                Hi, I'm John. A developer living in Brooklyn, New York. asdfasdfasdfasdf
               </p>
             </div>
           </div>
