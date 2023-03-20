@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78aa8c45.css",
+    "main.js": "/static/js/main.16f1f81c.js",
+    "static/media/doggle.png": "/static/media/doggle.d6ac9a5138c9f138cb71.png",
+    "static/media/gamesecrets.png": "/static/media/gamesecrets.70feb326d57d95f6553e.png",
+    "static/media/selfportraitsmall.png": "/static/media/selfportraitsmall.93bea9b5682358e2f31f.png",
+    "static/media/eyeReadApp.png": "/static/media/eyeReadApp.a53cefbca6d586ee43d0.png",
+    "static/media/johnkimresume2.pdf": "/static/media/johnkimresume2.9313aa8fbe515fae8df2.pdf",
+    "static/media/weatherDashboard.png": "/static/media/weatherDashboard.32ac9a49858c4a57f09b.png",
+    "static/media/fitnessTracker.png": "/static/media/fitnessTracker.a4d0ad24dd285099a1f2.png",
+    "static/media/noteTaker.png": "/static/media/noteTaker.6afd358fd9974800b7a4.png",
+    "static/media/mobile-close.svg": "/static/media/mobile-close.1ad1aa67d790c39210faead5a7d6d1e6.svg",
+    "static/media/mobile-menu.svg": "/static/media/mobile-menu.61f797891e164066eb7adef49d728757.svg",
+    "index.html": "/index.html",
+    "main.78aa8c45.css.map": "/static/css/main.78aa8c45.css.map",
+    "main.16f1f81c.js.map": "/static/js/main.16f1f81c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78aa8c45.css",
+    "static/js/main.16f1f81c.js"
+  ]
+}
