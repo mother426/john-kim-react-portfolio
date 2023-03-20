@@ -1,7 +1,6 @@
 {
   "name": "john-kim-react-portfolio",
   "version": "0.1.0",
-  "homepage": "john-kim-portfolio.herokuapp.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -24,7 +23,9 @@
     "sass": "^1.59.3"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
+    "heroku-postbuild": "npm ruin build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
