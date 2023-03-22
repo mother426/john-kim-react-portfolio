@@ -63,7 +63,7 @@ class Portfolio extends React.Component {
           preview: noteTaker,
           title: "Express Note Taker",
           tag: "Back-end Application with Express middleware",
-          link: "https://powerful-shelf-37149.herokuapp.com",
+          link: "https://johnk-expressnotes.herokuapp.com/",
           repo: "https://github.com/mother426/express-note-taker"
         },
       ],
