@@ -23,7 +23,7 @@ const about = () => (
             <div>
               <h4 className="font32 weight800">A bit about me</h4>
               <p className="font16 weight500">
-                Hi, I'm John. A developer living in Brooklyn, New York.
+                Hi, I'm John. A developer living in Brooklyn, New York. Working experience in frontend development in the MERN/SERN stack and project management. Passionate about emerging technologies, collaborating with talented individuals and constantly growing as a developer. 
               </p>
             </div>
           </div>
